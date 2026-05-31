@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7C4A2D" />
+    <title>Keluargaku Offline</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, system-ui, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top, rgba(201, 148, 58, 0.18), transparent 40%),
+          linear-gradient(180deg, #fffdf8, #fff8f0 50%, #f6efe5);
+        color: #7c4a2d;
+      }
+
+      main {
+        width: min(32rem, calc(100% - 2rem));
+        padding: 2rem;
+        border: 1px solid rgba(124, 74, 45, 0.12);
+        border-radius: 2rem;
+        background: rgba(255, 255, 255, 0.82);
+        box-shadow: 0 24px 60px rgba(124, 74, 45, 0.08);
+        text-align: center;
+      }
+
+      h1 {
+        margin: 1rem 0 0;
+        font: 700 2rem/1.2 Lora, Georgia, serif;
+      }
+
+      p {
+        margin: 1rem 0 0;
+        line-height: 1.8;
+      }
+
+      svg {
+        width: 5rem;
+        height: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="24" r="16" fill="#5A7A4A" />
+        <circle cx="22" cy="28" r="12" fill="#78A066" fill-opacity="0.85" />
+        <circle cx="42" cy="28" r="12" fill="#78A066" fill-opacity="0.85" />
+        <path d="M28 36H36V56H28V36Z" fill="#7C4A2D" />
+        <path d="M17 56C17 50.4772 21.4772 46 27 46H45C50.5228 46 55 50.4772 55 56V58H17V56Z" fill="#C9943A" fill-opacity="0.3" />
+      </svg>
+      <h1>Anda sedang offline.</h1>
+      <p>Data tersimpan di perangkat Anda.</p>
+    </main>
+  </body>
+</html>
